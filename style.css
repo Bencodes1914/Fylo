@@ -31,8 +31,8 @@ header {
     align-items: center;
     font-size: 1rem;
     font-weight: medium;
-    width: 70%;
-    max-width: 120px;
+    width: 100%;
+    max-width: 100px;
     height: 40px;
 }
 
