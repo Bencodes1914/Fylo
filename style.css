@@ -322,7 +322,7 @@ nav a:hover {
 }
 
  footer {
-     background: var(--footer-bg);
+     background: #0b1426;
      padding: 4rem 5% 2rem;
      margin-top: 6rem;
  }
