@@ -9,10 +9,27 @@
     src: url(./font/DMSans-VariableFont_opsz\,wght.ttf);
 }
 
+:root {
+    --bg-color: #1c2431;
+    --text-color: white;
+    --secondary-text: #bfbfbf;
+    --card-bg: #202a3c;
+    --footer-bg: #0b1426;
+}
+
+/* Light mode variables */
+body.light-mode {
+    --bg-color: #f9f9f9;
+    --text-color: #222;
+    --secondary-text: #555;
+    --card-bg: #ffffff;
+    --footer-bg: #eaeaea;
+}
+
 body {
     font-family: Variable Font;
-    background: #1c2431;
-    color: white;
+    background: var(--bg-color);
+    color: var(--text-color);
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -54,13 +71,13 @@ nav {
 }
 
 nav a {
-   color: #bfbfbf;
+   color: var(--secondary-text);
    text-decoration: none;
    transition: color 0.3s ease;
 }
 
 nav a:hover {
-   color: white;
+   color: var(--text-color);
    text-decoration: underline;
 }
 
@@ -68,7 +85,7 @@ nav a:hover {
    text-align: center;
    padding: 4rem 5% 6rem;
    position: relative;
-   background: radial-gradient(ellipse at center, #1f2937 0%, #1c2431 70%);
+   background: radial-gradient(ellipse at center, #1f2937 0%, var(--bg-color) 70%);
 }
 
 .hero-image {
@@ -84,7 +101,7 @@ nav a:hover {
 
 .hero p {
    font-size: 1.2rem;
-   color: #bfbfbf;
+   color: var(--secondary-text);
    max-width: 600px;
    margin: 0 auto 2.5rem;
    line-height: 1.8;
@@ -92,7 +109,7 @@ nav a:hover {
 
 .cta-button {
    background: linear-gradient(135deg, #65e2d9, #339ecc);
-   color: white;
+   color: var(--text-color);
    padding: 1rem 3rem;
    border: none;
    border-radius: 50px;
@@ -139,7 +156,7 @@ nav a:hover {
 }
 
 .feature p {
-    color: #bfbfbf;
+    color: var(--secondary-text);
     line-height: 1.8;
 }
 
@@ -176,7 +193,7 @@ nav a:hover {
 }
 
 .productivity-content p {
-    color: #bfbfbf;
+    color: var(--secondary-text);
     margin-bottom: 1rem;
     line-height: 1.8;
 }
@@ -190,8 +207,8 @@ nav a:hover {
 }
 
 .link-button:hover {
-    color: white;
-    border-bottom-color: white;
+    color: var(--text-color);
+    border-bottom-color: var(--text-color);
 }
 
 .testimonials {
@@ -204,7 +221,7 @@ nav a:hover {
 }
 
 .testimonial {
-    background: #202a3c;
+    background: var(--card-bg);
     padding: 2.5rem;
     border-radius: 15px;
     position: relative;
@@ -226,7 +243,7 @@ nav a:hover {
 }
  
 .testimonial p {
-    color: #bfbfbf;
+    color: var(--secondary-text);
     margin-bottom: 1.5rem;
     line-height: 1.6;
 }
@@ -270,7 +287,7 @@ nav a:hover {
 }
 
 .cta-section p {
-    color: #bfbfbf;
+    color: var(--secondary-text);
     margin-bottom: 2rem;
     max-width: 600px;
     margin-left: auto;
@@ -289,7 +306,7 @@ nav a:hover {
     padding: 1rem 1.5rem;
     border: none;
     border-radius: 50px;
-    background: white;
+    background: var(--text-color);
     color: #333;
     font-size: 1rem;
     width: 300px;
@@ -297,7 +314,7 @@ nav a:hover {
 }
 
  footer {
-     background: #0b1426;
+     background: var(--footer-bg);
      padding: 4rem 5% 2rem;
      margin-top: 6rem;
  }
@@ -318,7 +335,7 @@ nav a:hover {
 
  .footer-section h4 {
      margin-bottom: 1rem;
-     color: white;
+     color: var(--text-color);
  }
 
  .footer-section ul {
@@ -330,13 +347,13 @@ nav a:hover {
  }
 
  .footer-section a {
-     color: #bfbfbf;
+     color: var(--secondary-text);
      text-decoration: none;
      transition: color 0.3s ease;
  }
 
  .footer-section a:hover {
-     color: white;
+     color: var(--text-color);
      font-size: large;
  }
 
@@ -361,7 +378,7 @@ nav a:hover {
 
  .social-link:hover {
      background: #65e2d9;
-     color: #1c2431;
+     color: var(--bg-color);
  }
 
 img > .footer-image{
