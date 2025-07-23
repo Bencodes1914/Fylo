@@ -22,7 +22,6 @@ body.light-mode .logo {
 }
 
 #theme-toggle {
-    position: fixed;
     right: 20px;
     background: transparent;
     border: none;
@@ -478,3 +477,17 @@ img > .footer-image{
   width: 100%;
      }
  }
+
+.footer-section p img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.contact-info p img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer-section img {
+    margin-right: 8px;
+}
