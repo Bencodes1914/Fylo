@@ -3,7 +3,7 @@ const themeIcon = document.getElementById("theme-icon");
 
 if (localStorage.getItem("theme") === "light") {
     document.body.classList.add("light-mode");
-    themeIcon.src = "./images/icon-sun.svg";
+    themeIcon.src = "./images/icon-moon.svg";
 }
 
 toggleButton.addEventListener("click", () => {

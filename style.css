@@ -17,6 +17,10 @@
     --footer-bg: #0b1426;
 }
 
+body.light-mode .logo {
+    filter: invert(1);
+}
+
 #theme-toggle {
     position: fixed;
     right: 20px;
@@ -292,10 +296,11 @@ nav a:hover {
 .cta-section h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
+    color: white;
 }
 
 .cta-section p {
-    color: var(--secondary-text);
+    color: white;
     margin-bottom: 2rem;
     max-width: 600px;
     margin-left: auto;
@@ -314,7 +319,7 @@ nav a:hover {
     padding: 1rem 1.5rem;
     border: none;
     border-radius: 50px;
-    background: var(--text-color);
+    background: white;
     color: #333;
     font-size: 1rem;
     width: 300px;
@@ -339,11 +344,12 @@ nav a:hover {
      font-size: 1.5rem;
      font-weight: bold;
      margin-bottom: 2rem;
+     color: white;
  }
 
  .footer-section h4 {
      margin-bottom: 1rem;
-     color: var(--text-color);
+     color: white;
  }
 
  .footer-section ul {
@@ -355,13 +361,17 @@ nav a:hover {
  }
 
  .footer-section a {
-     color: var(--secondary-text);
+     color: #bfbfbf;
      text-decoration: none;
      transition: color 0.3s ease;
  }
 
+.footer-section > p, .contact-info > p{
+    color: white;
+}
+
  .footer-section a:hover {
-     color: var(--text-color);
+     color: white;
      font-size: large;
  }
 
@@ -386,7 +396,7 @@ nav a:hover {
 
  .social-link:hover {
      background: #65e2d9;
-     color: var(--bg-color);
+     color: #1c2431;
  }
 
 img > .footer-image{
