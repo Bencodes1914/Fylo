@@ -32,7 +32,7 @@ body.light-mode .logo {
 body.light-mode {
     --bg-color: #f9f9f9;
     --text-color: #222;
-    --secondary-text: #555;
+    --secondary-text: black;
     --card-bg: #ffffff;
     --footer-bg: #eaeaea;
 }
