@@ -17,7 +17,15 @@
     --footer-bg: #0b1426;
 }
 
-/* Light mode variables */
+#theme-toggle {
+    position: fixed;
+    right: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
 body.light-mode {
     --bg-color: #f9f9f9;
     --text-color: #222;
