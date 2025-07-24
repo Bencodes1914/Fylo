@@ -102,6 +102,7 @@ nav a:hover {
 .hero-image {
    width: 70%;
     max-width: 800px;
+    animation: iconPulse 5s ease-in-out infinite;
 }
 
 .hero h1 {
@@ -184,6 +185,7 @@ nav a:hover {
 .productivity-image{
     width: 70%;
     max-width: 500px;
+    animation: iconPulse 3s ease-in-out infinite;
 }
 
 .productivity-illustration {
