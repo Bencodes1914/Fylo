@@ -493,3 +493,84 @@ img > .footer-image{
 .footer-section img {
     margin-right: 8px;
 }
+
+.team-members {
+    padding: 6rem 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-members .member {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-members .member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.team-members .member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid var(--secondary-text);
+}
+
+.team-members .member h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.team-members .member p {
+    color: var(--secondary-text);
+}
+
+.signin-section {
+    padding: 6rem 5%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.signin-form input {
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: var(--secondary-text);
+}
+
+.form-options a {
+    color: var(--secondary-text);
+    text-decoration: none;
+}
+
+.form-options a:hover {
+    text-decoration: underline;
+}
+
+.signin-form button {
+    width: 100%;
+}
