@@ -102,7 +102,11 @@ nav a:hover {
 .hero-image {
    width: 70%;
     max-width: 800px;
-    animation: iconPulse 5s ease-in-out infinite;
+    animation-name: iconPulse;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
 }
 
 .hero h1 {
@@ -159,7 +163,11 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    animation: iconPulse 3s ease-in-out infinite;
+    animation-name: iconPulse;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
 }
 
 .feature h2 {
@@ -185,7 +193,10 @@ nav a:hover {
 .productivity-image{
     width: 70%;
     max-width: 500px;
-    animation: iconPulse 3s ease-in-out infinite;
+    animation-name: iconPulse;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .productivity-illustration {
