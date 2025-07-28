@@ -501,10 +501,6 @@ img > .footer-image{
     vertical-align: middle;
 }
 
-.footer-section img {
-    margin-right: 8px;
-}
-
 .team-members {
     padding: 6rem 5%;
     display: grid;
